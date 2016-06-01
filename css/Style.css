@@ -1,0 +1,55 @@
+*{margin: 0px; padding:0px;}
+li{list-style:none;}
+a{ text-decoration:none;font-size:16px;color:white;}
+.clear{ clear:both;}
+
+
+.main_menu {background:black;width:100%;}
+.main_menu ul li{float:left;padding:15px;text-align:center;text-transform: uppercase;}
+.main_menu ul li{position:relative;width:150px; font-weight: bolder;}
+.main_menu ul li:last-child{ border-right: none;}
+
+.main_menu ul li:hover >a{color:orange;}
+.main_menu ul li:hover{ transition: all 0.5s;}
+
+.main_menu ul li ul.a{width:170px;float:left; visibility:hidden;position:absolute; background:black;top:48px;left:0px;}
+.main_menu ul li:hover ul.a li{margin-top:5px;text-align:left;text-transform: none;padding:5px 10px;}
+.main_menu ul li:hover ul.a li a{color:white;}
+.main_menu ul li:hover ul.a{visibility:visible;}
+.main_menu ul li:hover ul.a li:hover >a{color:orange;}
+.main_menu ul li:last-child{ border-right: none;}
+
+.haut{
+width:100%;
+height:105px;
+background-color:white;
+}
+.haut p.b{margin-top:30px;margin-left:50px;font-size:30px;color:orange;}
+.haut p{font-size:20px;margin-left:50px;margin-top:10px;}
+
+.centre{
+background-size:cover;
+background-image:url(background.jpg);
+background-repeat:no-repeat;
+width:100%;
+height:725px;
+padding:20px 40px;
+box-sizing: border-box;
+}
+.reserver{width:300px;height:600px;background:rgba(15,64,128,0.8);padding:25px 30px;margin-left:1200px;}
+.reserver p{font-size:20px;color:white;margin-bottom:5px;margin-top:5px}
+.reserver form{font-size:16px;color:white;margin-top:5px;}
+.reserver pre{margin-top:5px;}
+.reserver select{margin-right:62px;}
+
+.button{
+
+background: #00ccff; 
+border: 3px #00ccff;
+width:30px;
+height:30px;
+padding: 10px 60px;
+text-decoration: none;
+font-size: 20px; 
+color:white; 
+}
